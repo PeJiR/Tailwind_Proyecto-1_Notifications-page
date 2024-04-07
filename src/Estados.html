@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link href="./output.css" rel="stylesheet">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Notifications page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+
+<body class="bg-blue-400">
+
+
+    <form action="" class="bg-white w-80 mx-auto mt-8 rounded-lg p-6">
+        <input class=" disabled:bg-red-200 border border-gray-300 w-full   px-3   py-2 mb-4 rounded-md" type="text"
+            placeholder="Name" disabled>
+        <input class="border border-gray-300 w-full px-3  py-2 mb-4 rounded-md 
+            focus:outline-none focus:ring-1 focus:ring-.green
+            invalid:focus:ring-red-400 peer" type="email" placeholder="email">
+        <p class="text-red-400 hidden peer-invalid:block pt-0">Wrong email entered</p>
+
+        <input class="border border-gray-300 w-full  px-3 py-2 mb-4 rounded-md" type="password" placeholder="password">
+        <input class=" bg-.blue hover:bg-.green w-full py-2 text-white rounded-md cursor-pointer" type="submit"
+            value="Type message">
+
+
+    </form>
+
+
+
+</body>
+
+</html>
