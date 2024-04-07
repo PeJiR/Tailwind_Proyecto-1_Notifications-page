@@ -554,34 +554,17 @@ video {
   --tw-contain-style:  ;
 }
 
-.bg-purple-900 {
+.bg-p\.green {
   --tw-bg-opacity: 1;
-  background-color: rgb(88 28 135 / var(--tw-bg-opacity));
+  background-color: rgb(23 184 119 / var(--tw-bg-opacity));
 }
 
-.from-neutral-800 {
-  --tw-gradient-from: #262626 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(38 38 38 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+.bg-p\.purple {
+  --tw-bg-opacity: 1;
+  background-color: rgb(168 127 251 / var(--tw-bg-opacity));
 }
 
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.font-light {
-  font-weight: 300;
-}
-
-.font-extralight {
-  font-weight: 200;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
-.underline {
-  text-decoration-line: underline;
 }
