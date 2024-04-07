@@ -40,11 +40,24 @@ body{
     display: flex;
     justify-content: space-between;
     margin-bottom: 24px;
-    &.title(       
-         color:var(--Red);
+    & .title{
+        color: var(--Very-dark-blue)
+        font-weight 800px;
+        font-size: 20px;
+        word-spacing: 9px;
+    }
+    & .number{
+        background-color: var(--Blue);
+        color:var(--White);
+        display: inline-block;
+        width:32px;
+        height: 25px;
+        border-radius: 5px;
 
-    )
+    }
+   
 }
+ 
 
 
 
