@@ -72,6 +72,7 @@ body {
   cursor: pointer;
   color: var(--Dark-grayish-blue);
   margin-bottom: 10px;
+
   & .image {
     width: 39px;
     height: 39px;
@@ -83,10 +84,20 @@ body {
         color: var(--Blue);
     }
   }
+  & .reaction{
+    font-weight: bold;
+    &:hover{
+      color:var(--Dark-grayish-blue);
+    }
+  }
   & .time {
     color: var(--Grayish-blue);
     font-size: 0.785rem;
     font-weight:500 ;
+  }
+  & .group{
+    color: var(--Blue);
+    font-weight: bold;
   }
 }
 
