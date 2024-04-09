@@ -71,7 +71,8 @@ body {
   font-size: 0.875rem;
   cursor: pointer;
   color: var(--Dark-grayish-blue);
-  margin-bottom: 10px;
+  margin: 0 auto 10px;
+  position: relative;
 
   & .image {
     width: 39px;
@@ -98,6 +99,21 @@ body {
   & .group{
     color: var(--Blue);
     font-weight: bold;
+  }
+  & .message-container{
+    border: 1px solid var(--Light-grayish-blue-2);
+    border-radius:  5px;
+    padding: 16px;
+    margin-top: 12px;   
+    &:hover{
+      background-color:var(--Light-grayish-blue-2)
+    } 
+  }
+  & .picture{
+    width: 39px;
+    height: 39px;
+    position:absolute;
+    right: 16px;
   }
 }
 
