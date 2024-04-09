@@ -554,10 +554,6 @@ video {
   --tw-contain-style:  ;
 }
 
-.flex {
-  display: flex;
-}
-
 .p-4 {
   padding: 1rem;
 }
